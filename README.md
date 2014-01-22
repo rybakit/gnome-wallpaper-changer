@@ -5,9 +5,9 @@ The script reads a file, a pipe or a standard input to retrive a list of images 
 
 ### Usage examples
 
-* Set random image from user's home folder:
+* Set random image from a specific directory (or from user's home directory):
 
-  `source/folder.sh [optional-folder-name] | ./gnome_wallpaper_changer.sh`
+  `source/dir.sh [optional-dir-name] | ./gnome_wallpaper_changer.sh`
 
 
 * Set random photo from your account at [fotki.yandex.ru](http://fotki.yandex.ru):
@@ -17,5 +17,5 @@ The script reads a file, a pipe or a standard input to retrive a list of images 
 
 * Append a crontab line (crontab -e) to change a background image every hour:
 
-  `0 * * * * <path-to-gnome_wallpaper_changer-folder>/source/folder.sh | <path-to-gnome_wallpaper_changer-folder>/gnome_wallpaper_changer.sh >> /dev/null 2>&1`
+  `0 * * * * <path-to-gnome_wallpaper_changer-dir>/source/dir.sh | <path-to-gnome_wallpaper_changer-dir>/gnome_wallpaper_changer.sh >> /dev/null 2>&1`
   
