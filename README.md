@@ -10,7 +10,7 @@ The script reads a file, a pipe or a standard input to retrive a list of images 
   `source/folder.sh [optional-folder-name] | ./gnome_wallpaper_changer.sh`
 
 
-* Set random photo from your account at fotki.yandex.ru:
+* Set random photo from your account at [fotki.yandex.ru](http://fotki.yandex.ru):
 
   `source/yandex_fotki.sh <your-account> | ./gnome_wallpaper_changer.sh`
 
